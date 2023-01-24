@@ -1,0 +1,48 @@
+<title>Profile</title>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <head>
+        <br>
+        <div class="text-center">
+            <h2>สิ่งที่สนใจ</h2>
+            <h4>"การท่องเที่ยว"</h4>
+            <img src="{% static 'images/Interests/in1.PNG' %}" width="960" height="400">
+        </div>
+    </head>
+    <body>
+    <div>
+        <br>
+        <h2 class="text-center">ภูผาม่าน โฮมสเตย์</h2>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+
+                <img src="{% static 'images/Interests/in2.PNG' %}" width="300" height="270">
+                <p>ภูผาม่าน พร้อมด้วยสะพานไม้ไผ่ที่ทอดยาว ในยามเช้าช่วงที่ฝนตกใหม่ๆ
+                    เราจะได้เห็นภาพสายหมอกบางลอยผ่านภูเขาแบบนี้ อากาศสดชื่นเย็นสบาย</p>
+            </div>
+            <div class="col-sm-4">
+
+                <img src="{% static 'images/Interests/in5.PNG' %}" width="300" height="270">
+                <p>ภูเขา มีกระท่อมกลางนาสำหรับนั่งทานอาหาร และสะพานไม้ไผ่กลางทุ่งให้เดินเล่นถ่ายภาพ
+                    ยามเช้ายังได้ชมสายหมอกบางที่ลอยคลอเคลียตามหุบเขา
+                </p>
+            </div>
+            <div class="col-sm-4">
+
+                <img src="{% static 'images/Interests/in3.PNG' %}" width="300" height="270">
+                <p>ภูผาม่าน โฮมสเตย์  ที่พักบรรยากาศดีที่ซุกซ่อนตัวอยู่ในอำเภอภูผาม่าน ภายในที่พักยังมีคาเฟ่ตกแต่งแบบโมเดิร์น
+                </p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div>
+        <img src="{% static 'images/Interests/inBack.PNG' %}" height="400" width="960">
+        <br><br><br>
+    </div>
+    </body>
+    </html>
+{% endblock %}
